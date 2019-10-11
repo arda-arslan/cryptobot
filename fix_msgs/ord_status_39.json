@@ -1,0 +1,17 @@
+{
+  "0": "New",
+  "1": "Partially filled",
+  "2": "Filled",
+  "3": "Done for day",
+  "4": "Canceled",
+  "5": "Replaced",
+  "6": "Pending",
+  "7": "Stopped",
+  "8": "Rejected",
+  "9": "Suspended",
+  "A": "Pending New",
+  "B": "Calculated",
+  "C": "Expired",
+  "D": "Accepted for bidding",
+  "E": "Pending Replace"
+}

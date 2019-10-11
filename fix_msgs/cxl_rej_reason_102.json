@@ -1,0 +1,6 @@
+{
+  "0": "Too late to cancel",
+  "1": "Unknown order",
+  "2": "Broker Option",
+  "3": "Order already in Pending Cancel or Pending Replace status"
+}
