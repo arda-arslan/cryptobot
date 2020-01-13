@@ -3,7 +3,7 @@
 Cryptobot is a multithreaded application that uses WebSockets and FIX protocol to trade crypto on gdax (now Coinbase Pro).
 
 <p align="center">
-  <img src="https://github.com/arda-arslan/cryptobot/blob/master/assets/cryptobot_img.png" width="90%" />
+  <img src="https://github.com/arda-arslan/cryptobot/blob/master/assets/cryptobot_img.png" width="95%" />
 </p>
 
 ## Description
