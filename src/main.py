@@ -35,13 +35,13 @@ Requirements:
 import threading
 import time
 
-from fix_trader import FIXTrader
-from gdax_account import GDAXAccount
-from log import Log
-from orderbook_ws import OrderBookWebSocket
-from fix_heartbeat_manager import fix_heartbeat_manager
-from reply_manager import reply_manager
-from strategy_manager import strategy_manager
+from .fix_trader import FIXTrader
+from .gdax_account import GDAXAccount
+from .log import Log
+from .orderbook_ws import OrderBookWebSocket
+from .fix_heartbeat_manager import fix_heartbeat_manager
+from .reply_manager import reply_manager
+from .strategy_manager import strategy_manager
 
 
 def main():

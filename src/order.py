@@ -3,7 +3,7 @@ import threading
 import uuid
 import queue
 
-from truncate import truncate
+from .truncate import truncate
 
 
 class Order:

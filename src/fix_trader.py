@@ -8,8 +8,8 @@ import socket
 import time
 import uuid
 
-from order import Order
-from order_tracker import OrderTracker
+from .order import Order
+from .order_tracker import OrderTracker
 
 
 class FIXTrader:

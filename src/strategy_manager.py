@@ -1,4 +1,4 @@
-from truncate import truncate
+from .truncate import truncate
 
 
 def strategy_manager(fix_trader, logger, gdax_min_trade_size_btc=.001):
