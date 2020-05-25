@@ -37,6 +37,7 @@ import time
 
 from .fix_trader import FIXTrader
 from .gdax_account import GDAXAccount
+from .load_config import load_api_keys
 from .log import Log
 from .orderbook_ws import OrderBookWebSocket
 from .fix_heartbeat_manager import fix_heartbeat_manager
@@ -53,10 +54,8 @@ def main():
 		None
 	"""
 
-	# Account information
-	api_key = 'your_api_key'
-	api_secret_key = 'your_api_secret_key'
-	api_passphrase = 'your_api_passphrase'
+	# Load acount information
+	api_key, api_secret_key, api_passphrase = load_api_keys()
 
 	# General setup
 	logger = Log()

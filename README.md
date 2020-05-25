@@ -34,7 +34,7 @@ api_passphrase = 'your_api_passphrase'
 ## TODO
 - [x] Transition from REST to FIX & WebSockets
 - [x] Cover most frequently used FIX messages
-- [ ] Move account details from source code to a file on .gitignore
+- [x] Move account details from source code to a config file
 - [ ] Create wrapper around objects that use locks so that they implicitly lock on calls
 - [ ] Only run `strategy_manger()` on order book updates
 - [ ] Change order book data structure from array to heap
