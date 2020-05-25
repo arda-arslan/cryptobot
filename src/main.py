@@ -54,7 +54,7 @@ def main():
 		None
 	"""
 
-	# Load acount information
+	# Load account information
 	api_key, api_secret_key, api_passphrase = load_api_keys()
 
 	# General setup
