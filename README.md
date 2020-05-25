@@ -16,12 +16,11 @@ There was a lot to learn so the code in this bot was iterated on very quickly so
 
 ## Quick Setup
 
-1. Enter account details in `src/main.py`
+1. Enter account details in `config.ini`
 ```
-# Account information
-api_key = 'your_api_key'
-api_secret_key = 'your_api_secret_key'
-api_passphrase = 'your_api_passphrase'
+api_key = your_api_key
+api_secret_key = your_api_secret_key
+api_passphrase = your_api_passphrase
 ```
 2. Setup [stunnel](https://www.stunnel.org/howto.html)
 
